@@ -1,9 +1,46 @@
+
+.roboto-mono-bold {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 80px;
+}
+
+
+.roboto-mono-thin {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
 body {
     background-color: #292828;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content{
-    background-color: #3f3d3d;
-    margin-inline: 10vw 10vw;
+    background-color: #403E3E;
+    border:solid black 1px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 16px;
 }
+
+.content .meCard{
+    background-color: #5C5757;
+    display: flex;
+    margin: 32px;
+    width: 600px;
+    height: 250px;
+    border-radius: 32px;
+    align-items: center;
+    gap: 15px;
+
+}
+
