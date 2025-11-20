@@ -76,6 +76,58 @@ body {
 
 .projects-grid .card {
     background-color: #5C5757;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border-radius: 16px;
     border: solid black 1px;
+    padding: 15px;
 }
+
+.card a {
+    color: white;
+    text-decoration: none;
+}
+
+.card h2 {
+    margin: 15px;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.card a:hover{
+    text-decoration:underline;
+}
+
+.bubbles-carosel{
+    display: flex;
+    margin-bottom: 0;
+    gap: 15px;
+}
+
+bubble{
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.blue{
+    background-color: #4493f8;
+}
+
+.red{
+    background-color: #e64f4f;
+}
+
+.yellow{
+    background-color: #ffcd56;
+}
+
+.green{
+    background-color: #74db74;
+}
+
