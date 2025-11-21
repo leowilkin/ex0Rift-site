@@ -13,6 +13,8 @@ fetch("https://api.github.com/users/ex0Rift/repos?sort=updated&direction=desc")
             language.className = "blue";
         }else if (language.textContent === "C"){
             language.className = "yellow";
+        }else if (language.textContent === "C++"){
+            language.className = "pink";
         }
 
         document.getElementById("current-project-description").textContent = latest.description;

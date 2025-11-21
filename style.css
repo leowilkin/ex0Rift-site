@@ -218,6 +218,10 @@ bubble{
     background-color: #47cfb2;
 }
 
+.pink{
+    background-color: #cf3dbc;
+}
+
 .contact-card-container{
     display: flex;
     gap: 15px;
