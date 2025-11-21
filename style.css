@@ -22,6 +22,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
 }
 
 .content{
@@ -87,6 +88,44 @@ body {
     object-fit:  contain;
 }
 
+.current-project-card{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+    background-color: #5C5757;
+    border: solid black 1px;
+    width: 75%;
+    height: 150px;
+    border-radius: 32px;
+    padding-inline: 32px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.current-project-card h2{
+    margin-left: 16px;
+    margin-block: 10px;
+}
+
+.current-project-card h3{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    margin-block: 10px;
+    margin-right: 15px;
+}
+
+.text-either-side-of-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .projects-area{
     padding: 0;
@@ -136,7 +175,7 @@ a:hover{
     margin-bottom: 0;
 }
 
-.bubbles-carosel{
+.card .bubbles-carosel{
     display: flex;
     margin-bottom: 0;
     gap: 15px;
@@ -171,6 +210,46 @@ bubble{
 .orange{
     background-color: #d8870d;
 }
+
+.cyan{
+    background-color: #47cfb2;
+}
+
+.contact-card-container{
+    display: flex;
+    gap: 15px;
+
+}
+
+.contact-card{
+    background-color: #5C5757;
+    border-radius: 16px;
+    border: solid black 1px;
+    padding-inline: 16px;
+    display: flex;
+    gap: 16px;
+    height: 60px;
+    align-items: center;
+
+}
+
+.contact-card:hover{
+    background-color: #292828;
+}
+
+.contact-card img{
+    height: inherit;
+}
+
+.contact-card h1{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
 
 /*Mobile viewport*/
 
