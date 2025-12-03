@@ -2,7 +2,6 @@ fetch("https://api.github.com/users/ex0Rift/repos?sort=updated&direction=desc")
     .then(r => r.json())
     .then(repos => {
         const latest = repos[0];
-        console.log(latest);
         document.getElementById("current-project-title").textContent = latest.name;
 
         var language = document.getElementById("current-project-language");
@@ -29,3 +28,10 @@ fetch("https://api.github.com/users/ex0Rift/repos?sort=updated&direction=desc")
 
         document.getElementById("current-project-time-since-text").textContent = diffDays + " hours ago";
     });
+
+function ScrollToBottom(){
+    window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: "smooth"
+    });
+}

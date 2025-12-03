@@ -63,15 +63,15 @@ body {
     gap: 15px;
 }
 
-.content-footer button{
+button{
     color: white;
-    background-color: #74db74;
+    background-color: #5db35d;
     border: solid #67bd67 1px;
     border-radius: 16px;
     padding: 15px 40px;
 }
 
-.content-footer button:hover{
+button:hover{
     background-color: #618a61;
     border: solid #4e694e 1px;
 }
@@ -253,6 +253,15 @@ bubble{
     text-decoration: none;
 }
 
+.timeline-container{
+    display: flex;
+    gap: 15px;
+    margin-block: 40px;
+}
+
+.timeline-contents p{
+    padding-left: 35px;
+}
 
 
 
@@ -346,6 +355,16 @@ bubble{
     .content#contact-content{
         padding-top: 15px;
     }
+
+    .image-carosel {
+        width: inherit;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        justify-items: center;
+        align-items: center;
+        gap: 20px;
+    }
+
 }
 
 
