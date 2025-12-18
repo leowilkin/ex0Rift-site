@@ -263,7 +263,40 @@ bubble{
     padding-left: 35px;
 }
 
+.time-container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 0 0 15px #ffffff;
+}
 
+.language-time-container{
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.language-time-container h3{
+    flex: 0 0 180px;
+    margin-block: 10px;
+}
+
+.bar-box{
+    flex: 1;
+    height: 10px;
+    align-items:baseline;
+}
+
+.bar{
+    background-color: #ffffff;
+    width: 0;
+    height: 100%;
+    border: 0;
+    margin-block: 0;
+    margin-left: 0;
+    border-radius: 15px;
+}
 
 
 
