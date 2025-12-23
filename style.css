@@ -20,7 +20,6 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-top: 80px;
 }
@@ -298,6 +297,23 @@ bubble{
     border-radius: 15px;
 }
 
+.top-bar{
+    display: flex;
+    width: 50vw;
+    margin-bottom: 15px;
+}
+
+.top-bar button{
+    background-color: #403E3E;
+    border: solid black 1px;
+    padding: 5px 40px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.top-bar button:hover{
+    background-color: #5C5757;
+}
 
 
 /*Mobile viewport*/
@@ -417,6 +433,20 @@ bubble{
     .language-time-container h3{
         flex: 0 0 10px;
         margin-block: 10px;
+    }
+
+    .top-bar{
+        display: flex;
+        width: 92vw;
+        margin-bottom: 15px;
+    }
+
+    .top-bar button{
+        background-color: #403E3E;
+        border: solid black 1px;
+        padding: 15px 40px;
+        border-radius: 15px;
+        font-size: 15px;
     }
 }
 

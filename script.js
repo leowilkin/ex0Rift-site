@@ -36,9 +36,6 @@ fetch("https://api.github.com/users/ex0Rift/repos?sort=updated&direction=desc")
 fetch("https://hackatime.hackclub.com/api/v1/users/22317/stats")
     .then(d => d.json())
     .then(hackatime_stats => {
-
-        console.log(hackatime_stats);
-
         //get variables for each of the languages from data
         const cpp = hackatime_stats.data.languages.find(l => l.name === "C++") ?? null;
         const c = hackatime_stats.data.languages.find(l => l.name === "C") ?? null;
