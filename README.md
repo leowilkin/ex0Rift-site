@@ -10,6 +10,8 @@ My projects are also stored on here in a nice grid fashion so i can track and sh
   <img alt="Static Badge" src="https://img.shields.io/badge/Link%20to%20site-8A2BE2?style=for-the-badge&link=https%3A%2F%2Fme.natesite.co.uk%2F">
 </a>
 
+<img width="2087" height="1445" alt="image" src="https://github.com/user-attachments/assets/965cd96f-400a-4bea-9afd-892926a57da3" />
+
 
 ## basic deploy instructions
 This is a website hosted on Github pages so simply hosted as a frontend website.
